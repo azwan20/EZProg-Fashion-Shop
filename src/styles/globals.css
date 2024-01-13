@@ -1,0 +1,345 @@
+:root {
+  --primary-color: #8bc34a;
+  --second-color: #6a9739;
+}
+
+nav {
+  background-color: transparent;
+  width: 100%;
+  height: 10%;
+  font-size: 17px;
+}
+
+.navbars {
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.navbars a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/young-japanese-woman-portrait-sitting-chair_23-2148870794.jpg?w=1060&t=st=1704194456~exp=1704195056~hmac=0a068357c8531773049cb1da5f955fd2eab77d9614ea80b3b5433bc73b040d96');
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.main section {
+  width: 100%;
+  height: 90%;
+  padding-right: 20px;
+}
+
+.main section span {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main button {
+  background-color: var(--primary-color);
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+}
+
+.second {
+  width: 100%;
+  height: 150vh;
+}
+
+.second section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.second .card {
+  width: 22rem;
+  height: 25rem;
+  background-color: #f5f7f4;
+  border: none;
+}
+
+.third {
+  width: 100%;
+  height: 100vh;
+  margin: 40px 0;
+}
+
+.third section {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 20px 30px;
+}
+
+.third .secThird {
+  background-image: url('https://img.freepik.com/free-photo/young-couple-standing-by-building_1303-11926.jpg?w=900&t=st=1704199930~exp=1704200530~hmac=632d7a8376b2f2eb4ebd9518e06e0cf3727ba87c877df640dec559a180d68542');
+}
+
+.four {
+  width: 100%;
+  height: 100vh;
+}
+
+.four img{
+  width: 100px;
+  height: 70px;
+  margin: 5px auto;
+}
+
+.four .card-title{
+  text-align: center;
+}
+
+.five {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/fashionable-clothing-collection-modern-boutique-store-generated-by-ai_188544-33893.jpg?t=st=1704200759~exp=1704204359~hmac=8daa31cba5182504b2676e476b89c36064a5f4130d887703c53250b2afc73542&w=1060');
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin: 0 0 50px;
+}
+
+.produk {
+  width: 100%;
+  height: max-content;
+}
+
+.produk .pict {
+  justify-content: center;
+  width: 100%;
+  height: 20rem !important;
+  background: url('https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?w=900&t=st=1704468784~exp=1704469384~hmac=3efb549047fdbf7f61628ebeb6eb5e3db82df10f1cd187e44a5134591f281037');
+  background-position: center center;
+  background-size: cover;
+  margin-top: 30px;
+  height: max-content;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.produk section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.produk .card {
+  width: 16rem;
+  background-color: white;
+  padding: 20px 20px 0;
+  border: none;
+  height: 23rem;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.produk a {
+  text-decoration: none;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produk .card .card-body {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.produk .card-body h5 {
+  color: var(--second-color);
+}
+
+.produk .image {
+  display: flex;
+  justify-content: center;
+}
+
+.produk .card img,
+.produk .cards img {
+  height: 12rem;
+  width: 10rem;
+}
+
+.produk .cards {
+  width: 350px;
+  height: 25rem;
+  margin-bottom: 40px;
+}
+
+.produk .cards .buttonAdd{
+  background-color: var(--primary-color);
+}
+
+.detail {
+  width: 100%;
+  height: 100vh;
+  padding: 0 40px 40px;
+}
+
+.detail .card {
+  height: 80vh;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.detail .card .cardImg {
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.detail .card img {
+  width: 200px;
+  height: 250px;
+}
+
+.detail button{
+  width: 200px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin-bottom: 100px;
+
+}
+
+.contact{
+  width: 100%;
+  height: 87vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact .contactCard{
+  width: 100%;
+  background: url('https://img.freepik.com/free-photo/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow_197531-11084.jpg?w=1060&t=st=1704971659~exp=1704972259~hmac=1c22a139b52e2f69c79edbc71e2039b769085757daefc04a37283767dd1c36fe');
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: top center;
+}
+
+.contact .contactCard section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contactCard section span{
+  display: flex;
+  padding: 15px 0;
+}
+
+.contactCard span input, .contactCard textarea{
+  width: 100%;
+  height: 50px;
+  border: 2px solid grey;
+}
+
+.contactCard button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: var(--primary-color);
+}
+
+.about h1{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.about .aboutContain{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  margin: 50px 0;
+}
+
+.about .aboutContain section{
+  /* width: 100%; */
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.aboutContain .aboutPic{
+  background: url('https://img.freepik.com/free-photo/fashionable-man-woman-sitting-stair_158595-5481.jpg?w=360&t=st=1705139228~exp=1705139828~hmac=fe6e62f8692405589e8d4e627fdfbf105bd35d7bd3e404917c1fdb3046755ae0');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutContain span{
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.aboutSec{
+  background: url('https://img.freepik.com/free-photo/full-shot-cool-people-wearing-chain-necklace_23-2149409723.jpg?w=900&t=st=1705140533~exp=1705141133~hmac=47680d9755668ec505c0d6c260820f00f45f3a444143087bc2129d8acef320d9');
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  margin-bottom: 50px;
+  background-position: center top;
+}
+
+.aboutThird{
+  margin: 100px auto;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.aboutThird .card{
+  height: 250px;
+}
+
+.aboutThird .card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutThird svg{
+  margin: 10px auto 40px;
+  text-align: center;
+}
+
+.aboutThird h5{
+  text-align: center;
+}
